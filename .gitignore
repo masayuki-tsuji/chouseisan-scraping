@@ -102,3 +102,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# スクリプトの変数は読み込む
+!scripts/.env
+
+# MAC専用のファイル
+.DS_Store
+
+# 出力ファイル
+function.zip*
